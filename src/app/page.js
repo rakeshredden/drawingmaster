@@ -1,13 +1,29 @@
-import Image from "next/image";
+'use client'
+import React from 'react';
+import ExcalidrawReactComponent from './components/ExcalidrawReactComponent';
+
 
 export default function Home() {
+
+
+  
+  
+
+    
+  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <section className="w-screen h-screen relative">
 
-      
+      <div className='absolute top-4 left-5'>
+        <div className='text-blue-500 font-bold'>
+          Ed
+        </div>
+      </div>
 
-      
-    </main>
+
+      <ExcalidrawReactComponent/>
+
+     
+    </section>
   );
 }
