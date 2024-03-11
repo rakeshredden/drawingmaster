@@ -19,7 +19,7 @@ const ExcalidrawReactComponent = () => {
     <>
     
         <div style={{ height: "800px", margin: "40px" }}>
-        {Comp && <Comp ref={excalRef} onChange={onChange} />}
+          {Comp && <Comp ref={excalRef} onChange={onChange} />}
         </div>
   </>);
 };
